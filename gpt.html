@@ -1,0 +1,11 @@
+<script>
+    const diasDaSemana = ["Domingo", "Segunda", "Terça", "Quarta", "Quinta", "Sexta", "Sábado"];
+
+    let numero = parseInt(prompt("Escolha um número de 1 a 7"));
+
+    if (numero >= 1 && numero <= 7) {
+        document.write("Você vai jogar bola no " + diasDaSemana[numero - 1]);
+    } else {
+        document.write("Número inválido");
+    }
+</script>
